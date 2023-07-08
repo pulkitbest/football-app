@@ -1,0 +1,473 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+    font-size: 2rem;
+    font-weight: 800;
+    box-sizing: border-box;
+    display: block;
+}
+
+.smallHeading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: block;
+}
+
+.para {
+    font-size: 1rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+}
+
+.appBg {
+    background-color: #E5E4E2;
+    overflow: auto;
+}
+
+.leagueCard {
+    width: 250px;
+    height: 105px;
+    position: relative;
+    border-radius: 5px;
+    /* border: 1px solid #2F4F4F; */
+    background-color: #fff;
+    box-shadow: 0 0 1.25rem #000000;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+
+.leagueCardPhoto,
+
+
+
+
+
+.leagueCardContent {
+    box-sizing: border-box;
+}
+
+.leagueCardPhoto {
+    width: 100px;
+    height: 105px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #2F4F4F;
+    background-color: #fafafa;
+    margin-left: -50px;
+    box-shadow: 0 0 0.5rem #2F4F4F;
+}
+
+.leagueCardPhoto img {
+    width: 100%;
+}
+
+.leagueCardContent {
+    padding: 10px;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.leagueCardContentText {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.leagueCardContentText h6,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.leagueCardContentText h3 {
+    color: #3d4451;
+    font-weight: 580;
+    margin: 3px 0;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.logo {
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    border: 5px solid #2F4F4F;
+    border-radius: 5px;
+    box-shadow: 0 0 2rem #1f2937;
+}
+
+.fixtureCard {
+    margin: auto;
+    width: 250px;
+    max-width: 100%;
+    border-radius: 8px;
+    /* border: 1px solid #324960; */
+    box-sizing: border-box;
+    box-shadow: 6px 5px 12px #2F4F4F;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.fixtureCardTeam,
+
+
+.fixtureCardScore {
+    font-size: 0.75rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+}
+
+.fixtureCardScore {
+    color: #50C878;
+    font-weight: 900;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.fixtureCardDetails {
+    font-size: 0.65rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+    color: #008080;
+    align-items: center;
+}
+
+.clubCard {
+    margin: auto;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 6px 5px 12px #2F4F4F;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.clubCardTeam {
+    font-size: 0.65rem;
+    font-weight: 600;
+    box-sizing: border-box;
+    display: block;
+    align-items: center;
+}
+
+.clubCardDetails {
+    font-size: 0.55rem;
+    font-weight: 500;
+    box-sizing: border-box;
+    display: block;
+    color: #008080;
+    align-items: center;
+}
+
+.tableDiv {
+    margin: 10px 30px 30px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.tableElement {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.tableElement th,
+
+
+
+
+
+
+
+.tableElement td {
+    text-align: left;
+    padding: 8px;
+}
+
+.tableElement td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.tableElement thead th {
+    color: #ffffff;
+    background: #324960;
+}
+
+.searchWrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.searchInput {
+    width: 500px;
+    max-width: 50%;
+    border: 4px solid #1f2937;
+    border-right: none;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem #2F4F4F;
+    padding: 10px;
+    color: #1f2937;
+}
+
+.searchButton {
+    height: 50px;
+    padding: 0px 10px;
+    background-color: white;
+    border: 4px solid #1f2937;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 1rem #2F4F4F;
+}
+
+.playerCardContainer {
+    height: 120px;
+    width: 260px;
+    box-shadow: 0 10px 15px #1f2937;
+    border-radius: 10px;
+    background-size: cover;
+    justify-content: flex-start;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.playerCardImage {
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    border: 3px solid #1f2937;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 10px;
+    box-shadow: 0 2px 15px #1f2937;
+    background-color: #3d4451;
+}
+
+@media only screen and (max-width: 670px) {
+    .clubCard {
+        width: 165px;
+    }
+
+    .clubCardTeam {
+        font-size: 0.50rem;
+    }
+
+    .clubCardDetails {
+        font-size: 0.40rem;
+    }
+}
+
+@media only screen and (max-width: 542px) {
+    .tableDiv {
+        margin: 5px 0px 0px;
+    }
+
+    .tableElement {
+        border-radius: 3px;
+        font-size: 9px;
+    }
+
+    .tableElement th,
+    .tableElement td {
+        padding: 6px;
+    }
+
+    .tableElement td {
+        border-right: 0.5px solid #f8f8f8;
+        font-size: 9px;
+    }
+
+    .fixtureCard {
+        width: 170px;
+        margin-bottom: 5px;
+    }
+
+    .fixtureCardTeam,
+    .fixtureCardScore {
+        font-size: 0.50rem;
+        font-weight: 550;
+    }
+
+    .fixtureCardScore {
+        font-weight: 800;
+        font-size: 0.9rem;
+        align-items: center;
+    }
+
+    .fixtureCardDetails {
+        font-size: 0.40rem;
+        font-weight: 450;
+    }
+
+    .clubCard {
+        width: 110px;
+        margin-bottom: 5px;
+        padding: 5px;
+        border-radius: 4px;
+    }
+
+    .clubCardTeam {
+        font-size: 0.30rem;
+    }
+
+    .clubCardDetails {
+        font-size: 0.20rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .btn-sm {
+        font-size: 0.65rem;
+    }
+
+    .btn-xs {
+        font-size: 0.60rem;
+    }
+
+    .leagueCard {
+        width: 220px;
+    }
+
+    .leagueCardContentText {
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .leagueCardContentText h6,
+    .leagueCardContentText h3 {
+        font-size: small;
+    }
+
+    .heading {
+        font-size: 1.75rem;
+    }
+
+    .smallHeading {
+        font-size: 1.25rem;
+    }
+
+    .para {
+        font-size: 0.75rem;
+    }
+
+    .tableDiv {
+        margin: 5px 0px 0px;
+    }
+
+    .tableElement {
+        border-radius: 2.5px;
+        font-size: 6px;
+    }
+
+    .tableElement th,
+    .tableElement td {
+        padding: 4px;
+    }
+
+    .tableElement td {
+        font-size: 6px;
+    }
+
+    .fixtureCard {
+        width: 140px;
+        margin-bottom: 5px;
+    }
+
+    .fixtureCardTeam,
+    .fixtureCardScore {
+        font-size: 0.40rem;
+        font-weight: 500;
+    }
+
+    .fixtureCardScore {
+        font-weight: 700;
+        font-size: 0.7rem;
+        align-items: center;
+    }
+
+    .fixtureCardDetails {
+        font-size: 0.30rem;
+        font-weight: 400;
+    }
+
+    .clubCard {
+        width: 82px;
+    }
+
+    .clubCardTeam {
+        font-size: 0.27rem;
+    }
+
+    .clubCardDetails {
+        font-size: 0.20rem;
+    }
+}
+
+@media only screen and (max-width: 311px) {
+    .btn-sm {
+        font-size: 0.50rem;
+    }
+
+    .btn-xs {
+        font-size: 0.45rem;
+    }
+
+    .leagueCard {
+        width: 185px;
+    }
+
+    .leagueCardContentText h6,
+    .leagueCardContentText h3 {
+        font-size: x-small;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    .smallHeading {
+        font-size: 1rem;
+    }
+
+    .para {
+        font-size: 0.5rem;
+    }
+}
