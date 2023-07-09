@@ -16,4 +16,4 @@ An interactive and responsive UI design for a webapp that displays football rela
 ## Working Demo
 
 * The app is deployed on [Vercel](https://vercel.com/)
-* The working demo of the website is available here: [Working Demo](https://football-app-sooty.vercel.app/).
+* The working demo of the website is available here: [Working Demo](https://pg-football-app-red.vercel.app/).
