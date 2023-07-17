@@ -9,7 +9,7 @@ import uelIcon from "../assets/uelIcon.png";
 export const LeagueInfo = [
   {
     leagueId: 39,
-    leagueName: "English Premier League",
+    leagueName: "Premier League",
     leagueCountry: "England",
     leagueLogo: premierLeagueIcon,
     logoBg: "#fff",

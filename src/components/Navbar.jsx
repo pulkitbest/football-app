@@ -19,6 +19,7 @@ function Header() {
     <div className="navbar mb-2 shadow-lg drop-shadow-xl bg-neutral text-neutral-content">
       <div className="flex-none mr-1">
         {/* Enable sidebar opening for the app Icon */}
+        <Link to="/">
         <img
           src={appIcon}
           alt="appIcon"
@@ -26,6 +27,7 @@ function Header() {
           width="28px"
           className="flex-none"
         />
+        </Link>
       </div>
       <div className="flex-auto px-1 mr-1 justify-end">
         <div className="flex">
